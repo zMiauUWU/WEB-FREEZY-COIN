@@ -1,0 +1,302 @@
+body{
+    background-color: #155C6B;
+}
+.logoimg{
+    width: 98px; 
+    height: 98px; 
+    left: 21px; 
+    top: 11px;
+    position: absolute;
+}
+.titulologo{
+    width: 400px; 
+    height: 75px; 
+    left: 140px; 
+    top: 10px; 
+    position: absolute; 
+    color: white; 
+    font-size: 50px; 
+    font-family: Koulen; 
+    font-weight: 400; 
+    word-wrap: break-word"
+
+}
+.BntLogar{
+    width: 180px; 
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px; 
+    left: 994px;
+    height: 57px; 
+    padding-left: 16px;
+    top: 22px;
+    position: absolute; 
+    background: #FFC700;
+    border-radius: 6px;
+    justify-content: center; 
+    align-items: center;
+    gap: 8px; 
+    cursor: pointer;
+    display:inline-flex;
+    color: black; 
+    font-size: 24px;
+    font-family: Montserrat; 
+    font-weight: 600; 
+    line-height: 16px; 
+    word-wrap: break-word;
+}
+.botoes{
+    left:450px; 
+    top: 10px; 
+    position: absolute; 
+
+}
+.imgFundo{
+    width: 100%; 
+    height: 764px; 
+    left: 0px; 
+    top: 119px; 
+    position: absolute;
+}
+.fundoFooter{
+    width: 100%; 
+    height: 554px; 
+    left: 0px; 
+    top: 1654px; 
+    position: absolute; 
+    background: #454545;
+}
+.LogoFooter{
+    width: 400px; 
+    height: 75px; 
+    left: 231px;
+    top: 1665px; 
+    position: absolute; 
+    color: white; 
+    font-size: 50px; 
+    font-family: Koulen; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.SepararFooter{
+    width: 332px; 
+    height: 0px; 
+    left: 835.5px;
+    top: 2081px; 
+    position: absolute; 
+    transform: rotate(-90deg); 
+    transform-origin: 0 0; 
+    border: 1px black solid;
+}
+.SubTituloFooterA{
+    left: 191px; 
+    top: 1759px; 
+    position: absolute; 
+    color: white; 
+    font-size: 35px; 
+    font-family: Kokoro; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.ImgTwitter{
+    width: 36px; 
+    height: 36px; 
+    left: 197px; 
+    top: 1828px; 
+    position: absolute;
+}
+.ImgInstagram{
+    width: 36px; 
+    height: 36px; 
+    left: 197px; 
+    top: 1900px; 
+    position: absolute;
+}
+.ImgFacebook{
+    width: 36px; 
+    height: 36px; 
+    left: 197px; 
+    top: 1972px; 
+    position: absolute;
+}
+.ImgLinkedin{
+    width: 36px; 
+    height: 36px; 
+    left: 197px; 
+    top: 2044px; 
+    position: absolute;
+}
+.TituloTwitter{
+    left: 251px; 
+    top: 1827px; 
+    position: absolute; 
+    color: white; 
+    font-size: 25px; 
+    font-family: Kokoro; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.TituloInstagram{
+    left: 251px; 
+    top: 2039px; 
+    position: absolute; 
+    color: white; 
+    font-size: 25px; 
+    font-family: Kokoro; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.TituloFacebook{
+    left: 251px; 
+    top: 1970px; 
+    position: absolute; 
+    color: white; 
+    font-size: 25px; 
+    font-family: Kokoro; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.TituloLinkedin{
+    left: 251px; 
+    top: 1904px; 
+    position: absolute; 
+    color: white; 
+    font-size: 25px; 
+    font-family: Kokoro; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+.SubTituloFooterB{
+    width: 320px; 
+    left: 720px; 
+    top: 1673px; 
+    position: absolute; 
+    color: white; 
+    font-size: 35px; 
+    font-family: Kokoro; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.SubFooterB{
+    width: 531px; 
+    height: 73px; 
+    left: 721px; 
+    top: 1730px; 
+    position: absolute; 
+    color: white; 
+    font-size: 25px; 
+    font-family: Kokoro; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.FootertxtEmail {
+    position: absolute;
+    display: flex;
+    width: 320px;
+    height: 24px; 
+    left: 720px;
+    top: 1823px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    background: #E8E8E8;
+    border-radius: 8px;
+    border: 1px black solid;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    color: #949494;
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+.FootertxtTelefone {
+    position: absolute;
+    display: flex;
+    width: 320px;
+    height: 24px;
+    left: 1062px;
+    top: 1823px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 15px;
+    background: #E8E8E8;
+    border-radius: 8px;
+    border: 1px black solid;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    color: #949494;
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+.FooterTxt {
+    width: 690px;
+    left: 720px;
+    top: 1881px;
+    position: absolute;
+    background: #E8E8E8;
+    border-radius: 8px;
+    border: 1px black solid;
+    height: 169px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    display: flex;
+    color: #949494;
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+.BntEnviar {
+    position: absolute;
+    width: 197px;
+    height: 66px;
+    left: 1219px;
+    top: 2062px;
+    border-radius: 6px;
+    background: #155C6B;
+    color: white;
+    display: inline-flex;
+    cursor: pointer;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 16px;
+    word-wrap: break-word;
+}
+.formatoA{
+    width: 500px;
+    left: 125px;
+    top: 0;
+    position: absolute;
+}
+
+.formatoB{
+    left: 181px;
+    top: 0;
+    position: absolute;
+}
+.fimFooter{
+    width: 100%; 
+    height: 20px; 
+    left: 0px; 
+    top: 2208px; 
+    position: absolute; 
+    background: black;
+}

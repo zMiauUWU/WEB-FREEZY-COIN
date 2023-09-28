@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="./css/Footer.css">
+            <title>Freeze Coin</title>
+         <style>
+                body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #155C6B;
+            background-image: url('./image/FundoHome.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            }
+                form {
+                    width: 300px;
+                    margin: 0 auto;
+                    font-family: Arial, sans-serif;
+                }
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                    margin-bottom: 20px;
+                }
+                tr {
+                    border-bottom: 1px solid #ddd;
+                }
+                td {
+                    padding: 10px;
+                }
+                label {
+                    font-weight: bold;
+                    display: inline-block;
+                    width: 120px;
+                    color: #ddd;
+                }
+                input[type="text"],
+                input[type="email"],
+                input[type="password"],
+                input[type="date"] {
+                    width: 100%;
+                    padding: 8px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                }
+                select {
+                    width: 100%;
+                    padding: 8px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                }
+                input[type="submit"] {
+                    background-color: #FFC700;
+                    color: black;
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+                input[type="submit"]:hover {
+                    background-color: #FFC700;
+                }
+            </style>
+        </head>
+        <body>
+            <header>
+                <img class="logoimg"alt="EmojiLogo" src="./image/EmojiLogo.png"/>
+                <h1 class="titulologo">Freezy Coin</h1>
+                <div class="botoes">
+                    <input type="button" name="Cadastrar-se" value="Cadastrar-se" alt="submit" ref="./teste.html" class="BntLogar">
+                </div>
+            </header>
+            <form>
+                <table>
+                    <tr>
+                        <td><label for="username">Nome de Usuario:</label></td>
+                        <td><input type="text" id="username" name="username"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Senha:</label></td>
+                        <td><input type="password" id="password" name="password"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="radio" id="remember" name="remember" value="remember">
+                            <label for="remember">Lembrar-me</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" value="Entrar">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+    <footer>
+        <div class="fundoFooter"></div>
+        <div class="LogoFooter">Freezy Coin</div>
+        <div class="formatoA">
+            <a class="SubTituloFooterA">Rede social</a>
+            <img class="ImgTwitter" alt="ImgTwitter" src="./image/Twitter.png">
+            <a class="TituloTwitter">@_freezycoin</a>
+            <img class="ImgInstagram" alt="ImgInstagram" src="./image/instagram.png">
+            <a class="TituloInstagram">@_freezycoin</a>
+            <img class="ImgFacebook" alt="ImgFacebook" src="./image/facebook.png">
+            <a class="TituloFacebook">@_freezycoin</a>
+            <img class="ImgLinkedin" alt="ImgLinkedin" src="./image/Linkedin.png">
+            <a class="TituloLinkedin">@_freezycoin</a>
+        </div>
+        <div class="SepararFooter"></div>
+        <div class="formatoB">
+            <div class="SubTituloFooterB">Entre em contato</div>
+            <div class="SubFooterB">Para reclamar ou deixar sua opinião deixe aqui seus comentários:</div>
+            <form>
+                <input class="FootertxtEmail" type="email" id="email" name="email" placeholder="E-mail:">
+                <input class="FootertxtTelefone" type="number" id="Telefone" name="Telefone" pattern="[0-9]{(3)} [0-9]{5}-[0-9]{4}" placeholder="Telefone:(000) 00000-0000">
+                <textarea class="FooterTxt" type="text" name="textarea" rows="50" cols="50" maxlength="250" placeholder="Mensagem:"></textarea>
+                <input type="button" name="Enviar" value="Enviar" class="BntEnviar">
+            </form>
+        </div>
+        <div class="fimFooter"></div>
+    </footer>
+</body>
+</html>

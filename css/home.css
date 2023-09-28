@@ -1,0 +1,634 @@
+body{
+    background-color: #155C6B;
+}
+.logoimg{
+    width: 98px; 
+    height: 98px; 
+    left: 21px; 
+    top: 11px;
+    position: absolute;
+}
+.titulologo{
+    width: 400px; 
+    height: 75px; 
+    left: 140px; 
+    top: 10px; 
+    position: absolute; 
+    color: white; 
+    font-size: 50px; 
+    font-family: Koulen; 
+    font-weight: 400; 
+    word-wrap: break-word"
+}
+.BntLogar{
+    width: 180px; 
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px; 
+    left: 994px;
+    height: 57px; 
+    padding-left: 16px;
+    top: 22px;
+    position: absolute; 
+    background: #FFC700;
+    border-radius: 6px;
+    justify-content: center; 
+    align-items: center;
+    gap: 8px; 
+    cursor: pointer;
+    display:inline-flex;
+    color: black; 
+    font-size: 24px;
+    font-family: Montserrat; 
+    font-weight: 600; 
+    line-height: 16px; 
+    word-wrap: break-word;
+}
+.BntCadastro{
+    width: 180px; 
+    height: 57px; 
+    padding-left: 16px; 
+    padding-right: 16px; 
+    padding-top: 12px; 
+    padding-bottom: 12px; 
+    left: 1219px; 
+    top: 22px; 
+    position: absolute; 
+    background: #FFC700; 
+    border-radius: 6px;
+    justify-content: center; 
+    align-items: center; 
+    gap: 8px; 
+    cursor: pointer;
+    display: inline-flex;
+    color: black; 
+    font-size: 24px; 
+    font-family: Montserrat; 
+    font-weight: 600; 
+    line-height: 16px; 
+    word-wrap: break-word;
+}
+.botoes{
+    left:450px; 
+    top: 10px; 
+    position: absolute; 
+
+}
+.imgFundo{
+    width: 100%; 
+    height: 764px; 
+    left: 0px; 
+    top: 119px; 
+    position: absolute;
+}
+.BntTeste{
+    width: 288px; 
+    height: 98px; 
+    padding-left: 16px; 
+    padding-right: 16px; 
+    padding-top: 12px;
+    padding-bottom: 12px; 
+    left: 199px; 
+    top: 317px; 
+    position: absolute; 
+    background: #FF6B00; 
+    border-radius: 6px; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 8px; 
+    cursor: pointer;
+    display: inline-flex;
+    color: white; 
+    font-size: 24px; 
+    font-family: Montserrat; 
+    font-weight: 600; 
+    line-height: 16px;
+    word-wrap: break-word;
+}
+.BntDepositar{
+    position: absolute; 
+    width: 288px; 
+    height: 98px; 
+    left: 527px; 
+    top: 317px;
+    border-radius: 6px;
+    background: #155C6B; 
+    color: white; 
+    display: inline-flex;
+    cursor: pointer;
+    padding-left: 16px; 
+    padding-right: 16px; 
+    padding-top: 12px; 
+    padding-bottom: 12px; 
+    justify-content: center; 
+    align-items: center; 
+    font-family: Montserrat; 
+    font-size: 24px;
+    font-weight: 600; 
+    line-height: 16px; 
+    word-wrap: break-word;
+}
+.BntDepositar:hover{
+    background: #ffffff; 
+    color: #155C6B; 
+}
+.Comecainv{
+    left: 194px; 
+    top: 220px; 
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    font-family: Kokoro; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.fundoUm {
+    width: 1044px; 
+    height: 1066px; 
+    left: 191px; 
+    top: 588px; 
+    position: absolute;
+    background: rgba(255, 255, 255, 0.50);
+}
+.fundoDois{
+    width: 1030px; 
+    height: 1059px; 
+    left: 198px; 
+    top: 595px; 
+    position: absolute; 
+    background: rgba(255, 255, 255, 0.50);
+}
+.ValorMin{
+    width: 268px; 
+    height: 32px; 
+    left: 422px; 
+    top: 632px; 
+    position: absolute; 
+    color: black; 
+    font-size: 25px; 
+    font-family: Kokoro; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.MinInvestimento{
+    width: 304px; 
+    height: 32px; 
+    left: 807px; 
+    top: 632px; 
+    position: absolute; 
+    color: black; 
+    font-size: 25px; 
+    font-family: Kokoro;
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.imgInvestimento{
+    width: 292px; 
+    height: 219px; 
+    left: 238px; 
+    top: 742px; 
+    position: absolute;
+}
+.BntVender{
+    width: 182px; 
+    height: 62px; 
+    padding-left: 16px; 
+    padding-right: 16px; 
+    padding-top: 12px; 
+    padding-bottom: 12px; 
+    left: 780px; 
+    top: 905px; 
+    position: absolute; 
+    background: #D90026;
+    border-radius: 6px;
+    justify-content: center; 
+    align-items: center; 
+    gap: 8px; 
+    cursor: pointer;
+    display: inline-flex;
+    color: white; 
+    font-size: 24px; 
+    font-family: Montserrat; 
+    font-weight: 600; 
+    line-height: 16px; 
+    word-wrap: break-word;
+}
+.BntVender:hover{
+    background: #ffffff; 
+    color: #D90026;
+}
+.BntComprar{
+    width: 182px; 
+    height: 62px;
+    top: 905px; 
+    left: 1010px; 
+    padding-left: 16px; 
+    padding-right: 16px; 
+    padding-top: 12px; 
+    padding-bottom: 12px; 
+    position: absolute;
+    background: #038A00; 
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center; 
+    gap: 8px; 
+    cursor: pointer;
+    display: inline-flex;
+    color: white; 
+    font-size: 24px; 
+    font-family: Montserrat; 
+    font-weight: 600; 
+    line-height: 16px; 
+    word-wrap: break-word;
+}
+.BntComprar:hover{
+    background: #ffffff; 
+    color: #038A00; 
+}
+.ImgEquipeUm{
+    width: 194px; 
+    height: 129px; 
+    left: 234px; 
+    top: 1225px; 
+    position: absolute;
+}
+.ImgEquipeDois{
+    width: 194px; 
+    height: 140px; 
+    left: 735px; 
+    top: 1220px; 
+    position: absolute;
+}
+.ImgEquipeTres{
+    width: 194px; 
+    height: 123px; 
+    left: 234px; 
+    top: 1394px; 
+    position: absolute;
+}
+.ImgEquipeQuatro{
+    width: 194px; 
+    height: 123px; 
+    left: 735px; 
+    top: 1394px; 
+    position: absolute;
+}
+.TextoEquipeUm{
+    width: 254px; 
+    height: 111px; 
+    left: 436px; 
+    top: 1225px; 
+    position: absolute; 
+    color: black; 
+    font-size: 25px; 
+    font-family: Kokoro; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.TextoEquipeDois{
+    width: 257px; 
+    height: 134px; 
+    left: 939px; 
+    top: 1220px; 
+    position: absolute; 
+    color: black; 
+    font-size: 25px; 
+    font-family: Kokoro; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.TextoEquipeTres{
+    width: 280px; 
+    height: 111px; 
+    left: 441px; 
+    top: 1394px; 
+    position: absolute; 
+    color: black; 
+    font-size: 25px; 
+    font-family: Kokoro; 
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.TextoEquipeQuatro{
+    width: 280px; 
+    height: 111px; 
+    left: 939px; 
+    top: 1394px; 
+    position: absolute; 
+    color: black; 
+    font-size: 25px;
+    font-family: Kokoro; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.tituloVendas{
+    left: 544px; 
+    top: 742px; 
+    position: absolute; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Montserrat; 
+    font-weight: 600; 
+    line-height: 16px; 
+    word-wrap: break-word;
+}
+.SubVendasDois{
+    width: 613px;
+    height: 107px; 
+    left: 548px; 
+    top: 790px; 
+    position: absolute; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Montserrat; 
+    font-weight: 400; 
+    line-height: 24px; 
+    word-wrap: break-word;
+}
+.tituloValor{
+    left: 548px; 
+    top: 932px; 
+    position: absolute; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Montserrat; 
+    font-weight: 400; 
+    line-height: 24px; 
+    word-wrap: break-word;
+}
+.VerMais{
+    left: 581px; 
+    top: 1014px; 
+    position: absolute; 
+    color: #4F4F4F; 
+    font-size: 20px; 
+    font-family: Adamina; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.linhaHorizontal{
+    width: 1015.04px; 
+    height: 0px; 
+    left: 203.98px; 
+    top: 1058.50px; 
+    position: absolute; 
+    border: 1px black solid;
+}.TituloEquipe{
+    width: 346px; 
+    left: 548px; 
+    top: 1105px; 
+    position: absolute; 
+    color: black; 
+    font-size: 45px; 
+    font-family: Kokoro; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.Apresentacao{
+    position: absolute;
+    left: 210px;
+    width: 1000px;
+}
+/*Footer*/
+.fundoFooter{
+    width: 100%; 
+    height: 554px; 
+    left: 0px; 
+    top: 1654px; 
+    position: absolute; 
+    background: #454545;
+}
+.LogoFooter{
+    width: 400px; 
+    height: 75px; 
+    left: 231px;
+    top: 1665px; 
+    position: absolute; 
+    color: white; 
+    font-size: 50px; 
+    font-family: Koulen; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.SepararFooter{
+    width: 332px; 
+    height: 0px; 
+    left: 835.5px;
+    top: 2081px; 
+    position: absolute; 
+    transform: rotate(-90deg); 
+    transform-origin: 0 0; 
+    border: 1px black solid;
+}
+.SubTituloFooterA{
+    left: 191px; 
+    top: 1759px; 
+    position: absolute; 
+    color: white; 
+    font-size: 35px; 
+    font-family: Kokoro; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.ImgTwitter{
+    width: 36px; 
+    height: 36px; 
+    left: 197px; 
+    top: 1828px; 
+    position: absolute;
+}
+.ImgInstagram{
+    width: 36px; 
+    height: 36px; 
+    left: 197px; 
+    top: 1900px; 
+    position: absolute;
+}
+.ImgFacebook{
+    width: 36px; 
+    height: 36px; 
+    left: 197px; 
+    top: 1972px; 
+    position: absolute;
+}
+.ImgLinkedin{
+    width: 36px; 
+    height: 36px; 
+    left: 197px; 
+    top: 2044px; 
+    position: absolute;
+}
+.TituloTwitter{
+    left: 251px; 
+    top: 1827px; 
+    position: absolute; 
+    color: white; 
+    font-size: 25px; 
+    font-family: Kokoro; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.TituloInstagram{
+    left: 251px; 
+    top: 2039px; 
+    position: absolute; 
+    color: white; 
+    font-size: 25px; 
+    font-family: Kokoro; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.TituloFacebook{
+    left: 251px; 
+    top: 1970px; 
+    position: absolute; 
+    color: white; 
+    font-size: 25px; 
+    font-family: Kokoro; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.TituloLinkedin{
+    left: 251px; 
+    top: 1904px; 
+    position: absolute; 
+    color: white; 
+    font-size: 25px; 
+    font-family: Kokoro; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+.SubTituloFooterB{
+    width: 320px; 
+    left: 720px; 
+    top: 1673px; 
+    position: absolute; 
+    color: white; 
+    font-size: 35px; 
+    font-family: Kokoro; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.SubFooterB{
+    width: 531px; 
+    height: 73px; 
+    left: 721px; 
+    top: 1730px; 
+    position: absolute; 
+    color: white; 
+    font-size: 25px; 
+    font-family: Kokoro; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.FootertxtEmail {
+    position: absolute;
+    display: flex;
+    width: 320px;
+    height: 24px; 
+    left: 720px;
+    top: 1823px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    background: #E8E8E8;
+    border-radius: 8px;
+    border: 1px black solid;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    color: #949494;
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+.FootertxtTelefone {
+    position: absolute;
+    display: flex;
+    width: 320px;
+    height: 24px;
+    left: 1062px;
+    top: 1823px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 15px;
+    background: #E8E8E8;
+    border-radius: 8px;
+    border: 1px black solid;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    color: #949494;
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+.FooterTxt {
+    width: 690px;
+    left: 720px;
+    top: 1881px;
+    position: absolute;
+    background: #E8E8E8;
+    border-radius: 8px;
+    border: 1px black solid;
+    height: 169px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    display: flex;
+    color: #949494;
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+.BntEnviar {
+    position: absolute;
+    width: 197px;
+    height: 66px;
+    left: 1219px;
+    top: 2062px;
+    border-radius: 6px;
+    background: #155C6B;
+    color: white;
+    display: inline-flex;
+    cursor: pointer;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 16px;
+    word-wrap: break-word;
+}
+.formatoA{
+    width: 500px;
+    left: 125px;
+    top: 0;
+    position: absolute;
+}
+
+.formatoB{
+    left: 181px;
+    top: 0;
+    position: absolute;
+}
+.fimFooter{
+    width: 100%; 
+    height: 20px; 
+    left: 0px; 
+    top: 2208px; 
+    position: absolute; 
+    background: black;
+}
